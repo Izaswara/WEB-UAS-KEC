@@ -1,0 +1,127 @@
+/* public/resource/css/styles.css */
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background: #ff4500; /* Warna merah sesuai gambar */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Navigation Styling */
+.navbar {
+    background-color: #ff4500; /* Warna merah sesuai gambar */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: relative; /* Tambahkan posisi relatif untuk z-index */
+    z-index: 1000; /* Z-index untuk memastikan navbar tetap di atas konten */
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background-color: #c32f00; /* Warna merah gelap untuk hover */
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5em;
+}
+
+.navbar .navbar-collapse {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+}
+
+.navbar .nav-item {
+    list-style: none;
+}
+
+.navbar .nav-link {
+    display: block;
+    padding: 10px 15px;
+}
+
+/* Main Content Styling */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden; /* Hapus overflow: hidden; untuk memungkinkan scroll */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Card Styling */
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    font-size: 1em;
+}
+
+/* Footer Styling */
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999; /* Pastikan footer di atas konten utama */
+}
+
+
+.ubah{
+    color : black;
+    text-align : center;
+}
